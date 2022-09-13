@@ -18,8 +18,12 @@ const AuthPage = () => {
   return (
     <div className="container">
       <h4> User Logged In: </h4>
-      {user !== null && <p>user email: {user.email}</p>}
-      {user !== null && <img src={user.photoURL} />}
+      {user !== null && (
+        <>
+          <p>user email: {user.email}</p>
+          <img src={user.photoURL} />
+        </>
+      )}
 
       <button onClick={handleClick}> Sign Out </button>
     </div>
