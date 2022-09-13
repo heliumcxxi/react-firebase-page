@@ -2,7 +2,7 @@
 
 This project was created to satisfy the requirements below:
 
-## requirements
+## Requirements
 
 Using FIREBASE and REACTJS with minimal packages, create and host a website with the following pages:
 
